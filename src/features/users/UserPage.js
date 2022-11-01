@@ -3,7 +3,6 @@ import React, { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { useGetPostsQuery } from '../api/apiSlice'
-import { selectPostsByUser } from '../posts/postsSlice'
 import { selectUserById } from './usersSlice'
 
 export const UserPage = ({ match }) => {
